@@ -1,0 +1,5 @@
+degradation,true_weak_pred_weak,true_weak_pred_strong,true_strong_pred_weak,true_strong_pred_strong
+clean,4101,99,0,0
+noise10,3996,204,0,0
+noise25,0,0,239,3961
+noise50,0,0,0,4200

@@ -1,0 +1,76 @@
+﻿key,category,model,params_m,active_params_weak_m,active_params_strong_m,checkpoint_size_mb,macs_g,ms_per_image,fps,peak_cuda_mem_mb,checkpoint_exists,strict_load,loaded_state_dict_keys,checkpoint_format,flops_note,checkpoint
+resnet50v2,Traditional CNN-based Methods,ResNet50V2,,,,269.39006519317627,,,,,True,False,,,"FAILED: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+",E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\best_model_resnet50v2.pth
+mobilenetv2,Traditional CNN-based Methods,MobileNetV2,,,,25.842729568481445,,,,,True,False,,,"FAILED: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+",E:\cbam_ftt_fusion\CBAM.PyTorch-master\checkpoint\mobilenetv2\best_model.pth
+densenet121,Traditional CNN-based Methods,DenseNet121,,,,80.48139572143555,,,,,True,False,,,"FAILED: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+",E:\cbam_ftt_fusion\CBAM.PyTorch-master\checkpoint\densenet121\best_model.pth
+vgg16,Traditional CNN-based Methods,VGG16,,,,1536.6213359832764,,,,,True,False,,,"FAILED: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+",E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\best_model_vgg16.pth
+vgg19,Traditional CNN-based Methods,VGG19,,,,1597.3929653167725,,,,,True,False,,,"FAILED: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+",E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\best_model_vgg19.pth
+inceptionv3,Traditional CNN-based Methods,InceptionV3,,,,249.9148349761963,,,,,True,False,,,"FAILED: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+",E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\best_model_inceptionv3.pth
+inceptionresnetv2,Traditional CNN-based Methods,InceptionResNetV2,,,,622.7786998748779,,,,,True,False,,,"FAILED: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+",E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\best_model_inceptionresnetv2.pth
+xception,Traditional CNN-based Methods,Xception,,,,238.58133506774902,,,,,True,False,,,"FAILED: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+",E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\best_model_xception.pth
+convnext_tiny,Modern Strong Baselines,ConvNeXt-Tiny,,,,318.6098232269287,,,,,True,False,,,"FAILED: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+",E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\convnext_tiny\best_model.pth
+swin_tiny,Modern Strong Baselines,Swin-Tiny,,,,315.15672492980957,,,,,True,False,,,"FAILED: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+",E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\swin_tiny\best_model.pth
+fastvit_sa12,Modern Strong Baselines,FastViT-SA12,,,,121.38498115539551,,,,,True,False,,,"FAILED: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+",E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\fastvit_sa12\best_model.pth
+efficientnet_b3,Modern Strong Baselines,EfficientNet-B3,,,,123.24488258361816,,,,,True,False,,,"FAILED: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+",E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\efficientnet_b3\best_model.pth
+stability_reg,Ours / Components,Weak Expert: Stability-Reg,,,,250.1287498474121,,,,,True,False,,,"FAILED: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+",E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\inceptionv3-nmfgf-noise-ra-stability-reg\best_model.pth
+strong_bias_calib_no_gate,Ours / Components,Strong Expert: Bias-Calib w/o gate,,,,250.14662551879883,,,,,True,False,,,"FAILED: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+",E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\inceptionv3-high-noise-bias-calib-no-high-noise-gate\best_model.pth
+final_gate_v2,Ours / Components,Final Gate v2,,,,0.008551597595214844,,,,,True,False,,,"FAILED: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+",E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\noise-aware-weak-strong-gate\best_weak_strong_gate.pth

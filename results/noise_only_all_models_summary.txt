@@ -1,0 +1,80 @@
+Gaussian noise all-model summary
+Rows sorted by degradation, then accuracy/f1 descending.
+
+densenet121                              clean      acc=1.0000 f1=1.0000 auc=1.0000 real_acc=1.0000 fake_rec=1.0000 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\checkpoint\densenet121\best_model.pth
+xception                                 clean      acc=0.9993 f1=0.9993 auc=1.0000 real_acc=0.9990 fake_rec=0.9995 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\best_model_xception.pth
+inceptionv3-frca                         clean      acc=0.9993 f1=0.9993 auc=1.0000 real_acc=0.9995 fake_rec=0.9990 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\inceptionv3-frca\best_model.pth
+inceptionv3-lmfc                         clean      acc=0.9993 f1=0.9993 auc=1.0000 real_acc=0.9995 fake_rec=0.9990 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\inceptionv3-lmfc\best_model.pth
+resnet50                                 clean      acc=0.9990 f1=0.9990 auc=1.0000 real_acc=0.9981 fake_rec=1.0000 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\checkpoint\resnet50\best_model.pth
+resnet50-nmfgf                           clean      acc=0.9990 f1=0.9990 auc=1.0000 real_acc=0.9986 fake_rec=0.9995 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\resnet50-nmfgf\best_model.pth
+inceptionv3                              clean      acc=0.9988 f1=0.9988 auc=1.0000 real_acc=0.9995 fake_rec=0.9981 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\best_model_inceptionv3.pth
+mobilenetv2                              clean      acc=0.9986 f1=0.9986 auc=1.0000 real_acc=0.9995 fake_rec=0.9976 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\checkpoint\mobilenetv2\best_model.pth
+vgg19                                    clean      acc=0.9981 f1=0.9981 auc=1.0000 real_acc=0.9967 fake_rec=0.9995 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\best_model_vgg19.pth
+resnet50-cbam                            clean      acc=0.9974 f1=0.9974 auc=1.0000 real_acc=0.9981 fake_rec=0.9967 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\checkpoint\resnet50-cbam\best_model.pth
+vgg16                                    clean      acc=0.9967 f1=0.9967 auc=1.0000 real_acc=0.9995 fake_rec=0.9938 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\best_model_vgg16.pth
+resnet50-cbam-msjf-ra                    clean      acc=0.9964 f1=0.9964 auc=0.9999 real_acc=0.9957 fake_rec=0.9971 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\best_model_msjf_ra.pth
+inceptionv3-nmfgf-noise-ra-stability-reg clean      acc=0.9936 f1=0.9935 auc=0.9997 real_acc=0.9986 fake_rec=0.9886 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\inceptionv3-nmfgf-noise-ra-stability-reg\best_model.pth
+inceptionresnetv2                        clean      acc=0.9917 f1=0.9916 auc=0.9963 real_acc=0.9957 fake_rec=0.9876 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\best_model_inceptionresnetv2.pth
+resnet50-cbam-dense-msjf-ra              clean      acc=0.9890 f1=0.9890 auc=0.9994 real_acc=0.9905 fake_rec=0.9876 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\dense_msjf_ra\best_model.pth
+resnet50v2                               clean      acc=0.9810 f1=0.9810 auc=0.9978 real_acc=0.9810 fake_rec=0.9810 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\best_model_resnet50v2.pth
+resnet50-nmfgf-noise-ra                  clean      acc=0.9810 f1=0.9806 auc=0.9994 real_acc=0.9976 fake_rec=0.9643 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\resnet50-nmfgf-noise-ra\best_model.pth
+inceptionv3-nmfgf-noise-ra               clean      acc=0.8426 f1=0.8134 auc=0.9922 real_acc=0.9990 fake_rec=0.6862 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\inceptionv3-nmfgf-noise-ra\best_model.pth
+inceptionv3-nmfgf-noise-ra-stability-reg noise10    acc=0.9624 f1=0.9613 auc=0.9955 real_acc=0.9905 fake_rec=0.9343 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\inceptionv3-nmfgf-noise-ra-stability-reg\best_model.pth
+inceptionresnetv2                        noise10    acc=0.8990 f1=0.8920 auc=0.9463 real_acc=0.9643 fake_rec=0.8338 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\best_model_inceptionresnetv2.pth
+inceptionv3-nmfgf-noise-ra               noise10    acc=0.8917 f1=0.8786 auc=0.9922 real_acc=0.9995 fake_rec=0.7838 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\inceptionv3-nmfgf-noise-ra\best_model.pth
+vgg16                                    noise10    acc=0.8783 f1=0.8629 auc=0.9801 real_acc=0.9910 fake_rec=0.7657 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\best_model_vgg16.pth
+vgg19                                    noise10    acc=0.8452 f1=0.8169 auc=0.9727 real_acc=1.0000 fake_rec=0.6905 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\best_model_vgg19.pth
+inceptionv3-frca                         noise10    acc=0.8110 f1=0.7669 auc=0.9931 real_acc=1.0000 fake_rec=0.6219 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\inceptionv3-frca\best_model.pth
+inceptionv3-lmfc                         noise10    acc=0.8081 f1=0.7625 auc=0.9932 real_acc=1.0000 fake_rec=0.6162 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\inceptionv3-lmfc\best_model.pth
+inceptionv3                              noise10    acc=0.7921 f1=0.7376 auc=0.9926 real_acc=1.0000 fake_rec=0.5843 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\best_model_inceptionv3.pth
+densenet121                              noise10    acc=0.7605 f1=0.6850 auc=0.9875 real_acc=1.0000 fake_rec=0.5210 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\checkpoint\densenet121\best_model.pth
+resnet50                                 noise10    acc=0.7348 f1=0.6390 auc=0.9759 real_acc=1.0000 fake_rec=0.4695 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\checkpoint\resnet50\best_model.pth
+xception                                 noise10    acc=0.7031 f1=0.5777 auc=0.9799 real_acc=1.0000 fake_rec=0.4062 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\best_model_xception.pth
+resnet50-nmfgf-noise-ra                  noise10    acc=0.6945 f1=0.5602 auc=0.9683 real_acc=1.0000 fake_rec=0.3890 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\resnet50-nmfgf-noise-ra\best_model.pth
+mobilenetv2                              noise10    acc=0.6371 f1=0.4305 auc=0.8194 real_acc=1.0000 fake_rec=0.2743 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\checkpoint\mobilenetv2\best_model.pth
+resnet50-nmfgf                           noise10    acc=0.6305 f1=0.4143 auc=0.9675 real_acc=0.9995 fake_rec=0.2614 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\resnet50-nmfgf\best_model.pth
+resnet50-cbam-msjf-ra                    noise10    acc=0.6238 f1=0.3974 auc=0.8475 real_acc=0.9995 fake_rec=0.2481 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\best_model_msjf_ra.pth
+resnet50-cbam                            noise10    acc=0.6181 f1=0.3826 auc=0.7713 real_acc=0.9995 fake_rec=0.2367 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\checkpoint\resnet50-cbam\best_model.pth
+resnet50v2                               noise10    acc=0.5769 f1=0.6583 auc=0.6820 real_acc=0.3386 fake_rec=0.8152 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\best_model_resnet50v2.pth
+resnet50-cbam-dense-msjf-ra              noise10    acc=0.5481 f1=0.1755 auc=0.7571 real_acc=1.0000 fake_rec=0.0962 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\dense_msjf_ra\best_model.pth
+inceptionv3-nmfgf-noise-ra-stability-reg noise25    acc=0.8707 f1=0.8784 auc=0.9513 real_acc=0.8076 fake_rec=0.9338 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\inceptionv3-nmfgf-noise-ra-stability-reg\best_model.pth
+inceptionv3-lmfc                         noise25    acc=0.7950 f1=0.7462 auc=0.9129 real_acc=0.9871 fake_rec=0.6029 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\inceptionv3-lmfc\best_model.pth
+inceptionv3-frca                         noise25    acc=0.7933 f1=0.7440 auc=0.9102 real_acc=0.9862 fake_rec=0.6005 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\inceptionv3-frca\best_model.pth
+inceptionv3                              noise25    acc=0.7848 f1=0.7285 auc=0.9271 real_acc=0.9919 fake_rec=0.5776 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\best_model_inceptionv3.pth
+inceptionv3-nmfgf-noise-ra               noise25    acc=0.7579 f1=0.6809 auc=0.9102 real_acc=0.9990 fake_rec=0.5167 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\inceptionv3-nmfgf-noise-ra\best_model.pth
+inceptionresnetv2                        noise25    acc=0.7279 f1=0.7744 auc=0.9006 real_acc=0.5214 fake_rec=0.9343 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\best_model_inceptionresnetv2.pth
+vgg19                                    noise25    acc=0.7167 f1=0.6047 auc=0.8128 real_acc=1.0000 fake_rec=0.4333 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\best_model_vgg19.pth
+resnet50                                 noise25    acc=0.6710 f1=0.7430 auc=0.8615 real_acc=0.3905 fake_rec=0.9514 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\checkpoint\resnet50\best_model.pth
+resnet50-nmfgf-noise-ra                  noise25    acc=0.6514 f1=0.4649 auc=0.8244 real_acc=1.0000 fake_rec=0.3029 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\resnet50-nmfgf-noise-ra\best_model.pth
+resnet50-nmfgf                           noise25    acc=0.6469 f1=0.6226 auc=0.6956 real_acc=0.7114 fake_rec=0.5824 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\resnet50-nmfgf\best_model.pth
+mobilenetv2                              noise25    acc=0.6367 f1=0.6767 auc=0.7349 real_acc=0.5129 fake_rec=0.7605 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\checkpoint\mobilenetv2\best_model.pth
+xception                                 noise25    acc=0.6236 f1=0.3968 auc=0.8689 real_acc=0.9995 fake_rec=0.2476 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\best_model_xception.pth
+densenet121                              noise25    acc=0.6081 f1=0.3605 auc=0.8282 real_acc=0.9952 fake_rec=0.2210 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\checkpoint\densenet121\best_model.pth
+resnet50-cbam-msjf-ra                    noise25    acc=0.5890 f1=0.3377 auc=0.5454 real_acc=0.9686 fake_rec=0.2095 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\best_model_msjf_ra.pth
+vgg16                                    noise25    acc=0.5412 f1=0.6797 auc=0.7786 real_acc=0.1086 fake_rec=0.9738 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\best_model_vgg16.pth
+resnet50-cbam                            noise25    acc=0.5233 f1=0.0892 auc=0.5416 real_acc=1.0000 fake_rec=0.0467 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\checkpoint\resnet50-cbam\best_model.pth
+resnet50-cbam-dense-msjf-ra              noise25    acc=0.5162 f1=0.0627 auc=0.5237 real_acc=1.0000 fake_rec=0.0324 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\dense_msjf_ra\best_model.pth
+resnet50v2                               noise25    acc=0.5000 f1=0.6667 auc=0.6431 real_acc=0.0000 fake_rec=1.0000 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\best_model_resnet50v2.pth
+inceptionv3-nmfgf-noise-ra               noise50    acc=0.7550 f1=0.7205 auc=0.8064 real_acc=0.8786 fake_rec=0.6314 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\inceptionv3-nmfgf-noise-ra\best_model.pth
+inceptionv3                              noise50    acc=0.7226 f1=0.6747 auc=0.7750 real_acc=0.8700 fake_rec=0.5752 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\best_model_inceptionv3.pth
+inceptionv3-lmfc                         noise50    acc=0.7110 f1=0.7004 auc=0.7772 real_acc=0.7462 fake_rec=0.6757 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\inceptionv3-lmfc\best_model.pth
+inceptionv3-frca                         noise50    acc=0.7024 f1=0.6954 auc=0.7739 real_acc=0.7252 fake_rec=0.6795 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\inceptionv3-frca\best_model.pth
+xception                                 noise50    acc=0.6098 f1=0.4331 auc=0.7054 real_acc=0.9214 fake_rec=0.2981 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\best_model_xception.pth
+resnet50-nmfgf-noise-ra                  noise50    acc=0.5724 f1=0.6862 auc=0.7673 real_acc=0.2095 fake_rec=0.9352 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\resnet50-nmfgf-noise-ra\best_model.pth
+resnet50v2                               noise50    acc=0.5333 f1=0.5220 auc=0.5511 real_acc=0.5571 fake_rec=0.5095 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\best_model_resnet50v2.pth
+inceptionv3-nmfgf-noise-ra-stability-reg noise50    acc=0.5324 f1=0.6790 auc=0.7057 real_acc=0.0757 fake_rec=0.9890 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\inceptionv3-nmfgf-noise-ra-stability-reg\best_model.pth
+vgg19                                    noise50    acc=0.5095 f1=0.0419 auc=0.4331 real_acc=0.9976 fake_rec=0.0214 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\best_model_vgg19.pth
+inceptionresnetv2                        noise50    acc=0.5050 f1=0.6218 auc=0.6128 real_acc=0.1962 fake_rec=0.8138 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\best_model_inceptionresnetv2.pth
+resnet50-cbam                            noise50    acc=0.5007 f1=0.0029 auc=0.4420 real_acc=1.0000 fake_rec=0.0014 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\checkpoint\resnet50-cbam\best_model.pth
+resnet50-nmfgf                           noise50    acc=0.5000 f1=0.6667 auc=0.4600 real_acc=0.0000 fake_rec=1.0000 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\resnet50-nmfgf\best_model.pth
+vgg16                                    noise50    acc=0.5000 f1=0.6667 auc=0.6113 real_acc=0.0000 fake_rec=1.0000 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\best_model_vgg16.pth
+resnet50                                 noise50    acc=0.4995 f1=0.6662 auc=0.6141 real_acc=0.0000 fake_rec=0.9990 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\checkpoint\resnet50\best_model.pth
+mobilenetv2                              noise50    acc=0.4993 f1=0.6660 auc=0.5549 real_acc=0.0000 fake_rec=0.9986 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\checkpoint\mobilenetv2\best_model.pth
+resnet50-cbam-dense-msjf-ra              noise50    acc=0.4886 f1=0.4834 auc=0.4738 real_acc=0.4986 fake_rec=0.4786 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\dense_msjf_ra\best_model.pth
+resnet50-cbam-msjf-ra                    noise50    acc=0.4876 f1=0.6551 auc=0.4514 real_acc=0.0019 fake_rec=0.9733 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\best_model_msjf_ra.pth
+densenet121                              noise50    acc=0.4793 f1=0.5928 auc=0.5014 real_acc=0.2005 fake_rec=0.7581 checkpoint=E:\cbam_ftt_fusion\CBAM.PyTorch-master\checkpoint\densenet121\best_model.pth
+
+Skipped models:
+inceptionv3-frca-hns | missing_checkpoint | E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\inceptionv3-frca-hns\best_model.pth
+resnet50-cbam-mjfs | missing_checkpoint | E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\resnet50-cbam-mjfs\best_model.pth
+resnet50-cbam-sfgf | missing_checkpoint | E:\cbam_ftt_fusion\CBAM.PyTorch-master\weights\resnet50-cbam-sfgf\best_model.pth
