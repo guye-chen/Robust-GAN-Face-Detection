@@ -599,23 +599,6 @@ https://www.kaggle.com/datasets/mayankjha146025/fake-face-images-generated-from-
 
 ---
 
-## Citation
-
-If this repository is useful for your research, please cite:
-
-```bibtex
-@article{frwsg2026,
-  title   = {基于频率可靠性感知弱强噪声专家门控的 GAN 生成人脸图像鲁棒检测方法},
-  author  = {Your Name},
-  journal = {To appear},
-  year    = {2026}
-}
-```
-
-Please replace the author and publication information after the paper is accepted or published.
-
----
-
 ## License
 
 This repository is released under the **MIT License**.
@@ -623,14 +606,3 @@ This repository is released under the **MIT License**.
 The MIT License applies only to the source code provided in this repository. It does not replace or override the licenses of the external datasets.
 
 The source datasets and GAN-generated images may be subject to their own licenses. Please check the licenses and usage policies of FFHQ and the Kaggle GAN-generated face dataset before using or redistributing the corresponding data.
-
----
-
-## Notes
-
-- Do not upload the original FFHQ or GAN-generated datasets to this repository.
-- Avoid uploading large `.pth` checkpoint files directly to GitHub.
-- Keep only publication-quality figures in `figures/`.
-- Keep reproducible CSV or text summaries in `results/`.
-- Make sure all commands in this README remain consistent with the actual script filenames.
-- Periodically verify that the FFHQ, Kaggle, and Baidu Netdisk links remain valid.
