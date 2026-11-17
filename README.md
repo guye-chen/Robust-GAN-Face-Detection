@@ -462,8 +462,6 @@ FR-WSG substantially improves robustness under Gaussian-noise degradation.
 
 Under `noise50`, FR-WSG improves accuracy by **18.88 percentage points** compared with the InceptionV3 baseline.
 
-![Robustness comparison under Gaussian noise](figures/figure_gaussian_noise_robustness_curves.png)
-
 ![Noise50 confusion matrix comparison](figures/figure_noise50_confusion_matrix_comparison.png)
 
 ---
